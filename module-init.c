@@ -87,5 +87,6 @@ void cleanup_module(void)
 	debug("deinitialized\n");
 }
 
-MODULE_LICENSE	("GPLv2");
-MODULE_AUTHOR	("Ilya V. Matveychikov <matvejchikov@gmail.com>");
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("Ilya V. Matveychikov <i.matveychikov@milabs.ru>");
+MODULE_DESCRIPTION("Linux kernel LSM replacement example");
